@@ -28,12 +28,7 @@ var userSchema = mongoose.Schema({
   registrationdate: {
     type: Date,
     default : Date.now(),
-  },
-
-  tasks : [{
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'task'
-  }]
+  }
 
 });
 
